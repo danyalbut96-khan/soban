@@ -28,8 +28,8 @@
   --clr-text-3:      #64748b;
 
   /* Typography */
-  --font-primary:  'Space Grotesk', 'Inter', sans-serif;
-  --font-body:     'Inter', sans-serif;
+  --font-primary:  var(--font-primary), 'Space Grotesk', 'Inter', sans-serif;
+  --font-body:     var(--font-body), 'Inter', sans-serif;
 
   /* Spacing */
   --section-pad: 120px;
